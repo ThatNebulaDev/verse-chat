@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js"></script>
 </head>
 <body>
-    <div class="chat-container">
+    <div class="chat-container" id="chat-container">
+        <div id="username-form">
+            <input type="text" id="username-input" placeholder="Enter your username" required>
+            <button id="join-button">Join Chat</button>
+        </div>
         <div class="chat-box" id="chat-box"></div>
-        <input type="text" id="message-input" placeholder="Type a message...">
-        <button id="send-button">Send</button>
+        <input type="text" id="message-input" placeholder="Type a message..." disabled>
+        <button id="send-button" disabled>Send</button>
     </div>
 
     <script src="script.js"></script>

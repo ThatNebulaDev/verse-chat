@@ -13,16 +13,23 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#username-form {
+    margin-bottom: 10px;
 }
 
 .chat-box {
     height: 300px;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 10px;
+    background-color: #f9f9f9;
 }
 
 .chat-box div {
@@ -34,6 +41,7 @@ body {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    margin-bottom: 10px;
 }
 
 #send-button {
@@ -47,4 +55,10 @@ body {
 
 #send-button:hover {
     background-color: #218838;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
 }

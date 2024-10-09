@@ -1,12 +1,12 @@
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    databaseURL: "YOUR_DATABASE_URL",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyBxPVDqTSoEPFfnPMCp9ICTLmmTIL8yClY",
+  authDomain: "verse-chat-app.firebaseapp.com",
+  projectId: "verse-chat-app",
+  storageBucket: "verse-chat-app.appspot.com",
+  messagingSenderId: "456307821262",
+  appId: "1:456307821262:web:94b3eafeece4cc0bbd1e9f",
+  measurementId: "G-4NTDHZQ0T2"
 };
 
 // Initialize Firebase
